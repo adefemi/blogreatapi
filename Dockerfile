@@ -6,6 +6,4 @@ WORKDIR /blogreat
 
 COPY . /blogreat/
 
-RUN pip install --upgrade pip
-
 RUN pip install -r requirements.txt
